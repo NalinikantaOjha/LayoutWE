@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:background="#2F2F2F"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Hello AND 03"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Welcome to Layouts"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/tv1"
+        android:textSize="22dp"
+        android:id="@+id/tv2"
+        />
+    <View
+        android:layout_marginTop="50dp"
+        android:id="@+id/v1"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+android:background="@drawable/blue_circule"
+        android:layout_below="@+id/tv2"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/tV3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:drawableRight="@drawable/ic_name_1"
+android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="Name : Loyd Dcosta"
+        android:textColor="#FF0000"
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tV3"
+        android:text="Age : 50"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:id="@+id/text4"
+
+        />
+    <Button
+        android:id="@+id/b"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:layout_alignParentBottom="true"
+    android:background="#00FF00"
+        android:text="Next"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+
+    />
+    <View
+        android:id="@+id/view2"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        android:layout_above="@+id/b"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="120dp"/>
+    <View
+        android:id="@+id/view3"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:background="@color/white"
+        android:layout_above="@+id/view2"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="60dp"/>
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:background="@color/white"
+        android:layout_above="@+id/view3"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+</RelativeLayout>

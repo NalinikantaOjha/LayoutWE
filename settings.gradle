@@ -1,0 +1,2 @@
+rootProject.name = "Linier2 WE"
+include ':app'
